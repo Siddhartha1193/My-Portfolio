@@ -7,7 +7,7 @@ export default class Header extends Component{
       <div className="span12">
         <h4 className="intro-slogan css3-gradient">Hello world!<br/> I am Siddhartha Sankasala</h4>
       </div>
-      //<!-- begin .vcard -->
+    
 
     )
   }

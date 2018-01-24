@@ -1,11 +1,12 @@
-import React, {Component} from 'react';
 
+var React = require('react');
+var Component = React.Component;
 export default class Experience extends Component{
   render(){
     return(
           <div className="span8 main-wrap pull-left">
             <div className="section section-work section-first row">
-            					<h3  className="css3-gradient-2"><i  className="icon-briefcase"></i>Work experience</h3>
+            					<h3  className="css3-gradient-2"><i class="fa fa-briefcase" aria-hidden="true"></i>Work experience</h3>
 
             						<div  className="section-work-list row-fluid">
             							<div  className="span6 work-item">

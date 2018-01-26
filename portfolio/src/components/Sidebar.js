@@ -56,11 +56,6 @@ export default class Sidebar extends Component{
           </ul>
 
         <br/>
-          <a className="github-button btn btn-primary btn-lg" href="https://github.com/Siddhartha1193" data-size="large" aria-label="Follow @Siddhartha1193 on GitHub">Follow @Siddhartha1193</a>
-
-          <div className="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="siddharthasankasala">
-            <a className="LI-simple-link" href='https://www.linkedin.com/in/siddharthasankasala?trk=profile-badge'>Siddhartha Sankasala</a>
-          </div>
 
           </div>
 

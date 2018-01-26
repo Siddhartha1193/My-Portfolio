@@ -1,10 +1,9 @@
-
-var React = require('react');
-var Component = React.Component;
+import React, {Component} from 'react';
+var react = require('react');
 export default class Experience extends Component{
   render(){
     return(
-          <div className="span8 main-wrap pull-left">
+
             <div className="section section-work section-first row">
             					<h3  className="css3-gradient-2"><i class="fa fa-briefcase" aria-hidden="true"></i>Work experience</h3>
 
@@ -30,7 +29,6 @@ export default class Experience extends Component{
                             </div>
             						  </div>
             	</div>
-              </div>
             )
           }
         }

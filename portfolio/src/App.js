@@ -12,28 +12,24 @@ import './index.css';
 class App extends Component {
   render() {
     return (
-      <div className="mirror-mode">
         <div className="App">
 
           <div className="container">
             <div className="row page-wrap">
               <Header/>
               <Sidebar/>
-              <div className="span8 main-wrap pull-left">
+              <div className="span8 main-wrap">
                 <About/>
                 <Experience/>
                 <Education/>
                 <Skills/>
                 <Projects/>
-                
 
               </div>
 
             </div>
           </div>
-
         </div>
-      </div>
     );
   }
 }

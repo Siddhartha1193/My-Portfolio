@@ -1,19 +1,22 @@
 .page-wrap {background: #fff; padding-top: 30px; margin-top: 30px; margin-bottom: 30px; -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.1); -moz-box-shadow: 0 0 20px rgba(0,0,0,0.1); box-shadow: 0 0 20px rgba(0,0,0,0.1);}
 
 /* HEADER TEXT STARTS HERE*/
+.intro-slogan {position: relative; font-size: 5em; line-height: 1em; margin-top: 30px; margin-bottom: 60px; margin-left: 30px; padding: 60px; margin-right: -30px; text-transform: uppercase; color: #fff; -webkit-text-shadow: 3px 3px 0 rgba(0,0,0,0.5); -moz-text-shadow: 3px 3px 0 rgba(0,0,0,0.5); text-shadow: 3px 3px 0 rgba(0,0,0,0.5);}
+.intro-slogan:after {position: absolute; bottom: -30px; right: 0; content: ""; display: block; width: 0; height: 0; border-right: 30px solid transparent; border-top: 30px solid #753C07;}
 
-.intro-slogan {position: relative; font-size: 5em; line-height: 1em; margin-top: 30px; margin-bottom: 60px; margin-left: -60px !important; padding: 60px; margin-right: 60px !important; text-align: right; text-transform: uppercase; color: #fff; -webkit-text-shadow: 3px 3px 0 rgba(0,0,0,0.5); -moz-text-shadow: 3px 3px 0 rgba(0,0,0,0.5); text-shadow: 3px 3px 0 rgba(0,0,0,0.5);}
-.intro-slogan:after {left: 0 !important; position: absolute; bottom: -30px; right: 0; content: ""; display: block; width: 0; height: 0; border-right: 0 !important; border-left: 30px solid transparent !important; border-top: 30px solid #753C07;}
 /* HEADER TEXT ENDS HERE */
 
 /* VCARD STYLING */
-.vcard-wrap{margin-left: 20px; margin-bottom: 10px; box-shadow: 0px 0px 3px rgba(0,0,0,0.2); background: #eee;  padding-top: 20px; }
+.vcard-wrap{margin-left: 20px; margin-bottom: 10px; box-shadow: 0px 0px 3px rgba(0,0,0,0.2); background: #eee;  padding-top: 20px; position:sticky; -webkit:sticky; }
 .vcard .vcard-photo {margin: 0 20px; padding: 10px; background: #fff; box-shadow: 0px 0px 3px rgba(0,0,0,0.2);}
 .vcard .vcard-photo img {width: 100%;}
 .vcard .vcard-bio {padding: 30px; padding-top: 0;}
 .vcard .vcard-bio .vcard-name {margin-bottom: 0; text-align: center; margin-top: 20px;}
 .vcard .vcard-bio .vcard-info {}
+.vcard .vcard-bio a{color:#99b899;}
+.vcard .vcard-bio a:hover{color:#2A363B;}
 .vcard .vcard-bio .vcard-info i {margin-right: 10px; width: 10px; text-align: center;}
+/*.vcard .vcard-bio .social li{display: inline-block;}*/
 .skill-item {margin-bottom: 10px;}
 .progress {height: 30px; margin-bottom: 0;}
 .progress .bar {text-align: left; height: 30px; line-height: 30px; -webkit-text-shadow: 1px 1px 0 rgba(0,0,0,0.5); -moz-text-shadow: 1px 1px 0 rgba(0,0,0,0.5); text-shadow: 1px 1px 0 rgba(0,0,0,0.5);}
@@ -34,6 +37,10 @@
 .section-work-list h4, .section-education-list h4 {margin-top: 0;}
 .section-work-list h4 i, .section-education-list h4 i {margin-right: 10px;}
 .section-work-list h4 small, .section-education-list h4 small {font-style: italic; font-size: 0.6em;}
+.section-work-list .work-item h4{text-transform: uppercase;}
+.section-work-list .work-item h5{text-transform: uppercase;}
+.section-education-list .education-item h4, h6{text-transform: uppercase;}
+.section-education-list .education-item .university-list h5{text-transform: uppercase;}
 .main-wrap .section-portfolio .section-portfolio-row-wrap .portfolio-item-thumbnail {margin-bottom: 20px;}
 .main-wrap .section-portfolio .section-portfolio-row-wrap .portfolio-item-thumbnail .portfolio-item-thumbnail-wrap {padding: 10px; background: #fff; -webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.2); -moz-box-shadow: 0px 0px 3px rgba(0,0,0,0.2);box-shadow: 0px 0px 3px rgba(0,0,0,0.2);}
 .main-wrap .section-portfolio .section-portfolio-row-wrap .portfolio-item-thumbnail .portfolio-item-thumbnail-wrap img {width: 100%;}
@@ -66,30 +73,4 @@
 	.main-wrap .section h3:after {position: absolute; bottom: -10px; right: 0; content: ""; display: block; width: 0; height: 0; border-right: 10px solid transparent; border-top: 10px solid #3C3542;}
 
 	.main-wrap .section-blog .section-blog-item .blog-item-excerpt h4 {margin: 20px 0;}
-}
-
-/**************/
-/*  MIRRORED  */
-/**************/
-
-.mirror-mode .intro-slogan {text-align: right; margin-left: -60px !important; margin-right: 60px !important; }
-.mirror-mode .intro-slogan:after {left: 0 !important; border-right: 0 !important; border-left: 30px solid transparent !important;}
-
-/* VCARD STYLING */
-.mirror-mode .vcard-wrap {margin-left: -30px !important; margin-right: 60px !important; }
-/* VCARD STYLING ENDS HERE */
-
-.mirror-mode .main-wrap .section {padding: 0 60px 40px 60px;}
-.mirror-mode .main-wrap .section h3 {margin-right: 0 !important; padding-left: 80px !important; margin-left: -75px !important;}
-.mirror-mode .main-wrap .section h3:after {left: 0 !important; border-right: 0 !important; border-left: 15px solid transparent !important;}
-
-/* media query for mobile devices in mirror-mode*/
-@media (max-width: 767px) {
-	.mirror-mode .vcard-wrap {margin-right: 0 !important; margin-left: 0 !important;}
-	.mirror-mode .intro-slogan {padding: 30px; margin-right: 20px !important; margin-left: -10px !important; font-size: 4em;}
-	.mirror-mode .intro-slogan:after {left: 0 !important; border-left: 10px solid transparent !important;}
-
-	.mirror-mode .main-wrap .section {padding: 0 30px 40px 30px;}
-	.mirror-mode .main-wrap .section h3 {margin-left: -40px !important; margin-left: 0; text-align: center;}
-	.mirror-mode .main-wrap .section h3:after {border-right: 0 !important; border-left: 10px solid transparent !important;}
 }

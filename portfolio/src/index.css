@@ -13,6 +13,10 @@
 .vcard .vcard-bio {padding: 30px; padding-top: 0;}
 .vcard .vcard-bio .vcard-name {margin-bottom: 0; text-align: center; margin-top: 20px;}
 .vcard .vcard-bio .vcard-info {}
+.vcard .vcard-bio .vcard-contact .vcard-contact-address h5{text-transform:capitalize; }
+.vcard-bio .vcard-contact  i{color:#99b899;}
+.vcard .vcard-bio .vcard-contact .vcard-contact-email h5{text-transform:none;}
+.vcard-bio .vcard-contact .vcard-contact-email .email a{color:#000000;}
 .vcard .vcard-bio a{color:#99b899;}
 .vcard .vcard-bio a:hover{color:#2A363B;}
 .vcard .vcard-bio .vcard-info i {margin-right: 10px; width: 10px; text-align: center;}
@@ -37,10 +41,23 @@
 .section-work-list h4, .section-education-list h4 {margin-top: 0;}
 .section-work-list h4 i, .section-education-list h4 i {margin-right: 10px;}
 .section-work-list h4 small, .section-education-list h4 small {font-style: italic; font-size: 0.6em;}
-.section-work-list .work-item h4{text-transform: uppercase;}
-.section-work-list .work-item h5{text-transform: uppercase;}
+.section-work-list  h4, h5{text-transform: uppercase;}
+.section-work-list .work-name h5{text-transform: uppercase;}
+.section-work-list .work-name i{color:#99b899;}
+.section-work-list .company-list i{color:#99b899;}
 .section-education-list .education-item h4, h6{text-transform: uppercase;}
 .section-education-list .education-item .university-list h5{text-transform: uppercase;}
+.section-education-list .education-item .university-list i{color:#99b899;}
+.section-skills .skill-icons{font-size: 3rem; color:#99b899; }
+.section-skills .skill-icons .list-inline-item i:hover {color: #2A363B;}
+.section-skills .skills-list h5 {text-transform: none;}
+.section-skills .skills-list i{color:#99b899;}
+.section-about .about-list i{color:#99b899;}
+.section-projects .social-icons a{color:#99b899;}
+.section-projects .social-icons a:hover {color: #2A363B;}
+.section-projects .project-description {text-transform: none;}
+
+
 .main-wrap .section-portfolio .section-portfolio-row-wrap .portfolio-item-thumbnail {margin-bottom: 20px;}
 .main-wrap .section-portfolio .section-portfolio-row-wrap .portfolio-item-thumbnail .portfolio-item-thumbnail-wrap {padding: 10px; background: #fff; -webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.2); -moz-box-shadow: 0px 0px 3px rgba(0,0,0,0.2);box-shadow: 0px 0px 3px rgba(0,0,0,0.2);}
 .main-wrap .section-portfolio .section-portfolio-row-wrap .portfolio-item-thumbnail .portfolio-item-thumbnail-wrap img {width: 100%;}
@@ -71,6 +88,6 @@
 	.main-wrap .section h3 {margin-right: -40px; margin-left: 0; text-align: center;}
 	.main-wrap .section h3 i{margin-left: -40px;}
 	.main-wrap .section h3:after {position: absolute; bottom: -10px; right: 0; content: ""; display: block; width: 0; height: 0; border-right: 10px solid transparent; border-top: 10px solid #3C3542;}
-
+	.main-wrap .section .section-work .section-work-list .work-date p,i {position:relative; display: block; margin-left:0; left:0;}
 	.main-wrap .section-blog .section-blog-item .blog-item-excerpt h4 {margin: 20px 0;}
 }

@@ -56,7 +56,7 @@ export default class Skills extends Component{
         </ul>
         <br/>
         <ul className="skills-list fa-ul">
-          <li><h5><span className="fa-li"><i className="fas fa-code "></i></span><b></b>ReactJS, AndularJS, NodeJS, Java, Android Development, PHP, JavaScript, HTML5/CSS3, Redux, XML, JSON, jQuery, REST APIs</h5></li>
+          <li><h5><span className="fa-li"><i className="fas fa-code "></i></span><b></b>ReactJS, AngularJS, NodeJS, Java, Android Development, PHP, JavaScript, HTML5/CSS3, Redux, XML, JSON, jQuery, REST APIs</h5></li>
           <li><h5><span className="fa-li"><i className="fas fa-database "></i></span>MySQL, MongoDB, PostgreSQL, SQLite, JDBC, Firebase</h5></li>
           <li><h5><span className="fa-li"><i className="fas fa-wrench "></i></span> Android Studio, Atom, AWS, Git, Subversion, Mac OS X, Ubuntu</h5></li>
           </ul>

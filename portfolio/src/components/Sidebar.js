@@ -67,7 +67,7 @@ export default class Sidebar extends Component{
             <ul className="list-inline resume">
               <li className="list-inline-item">
                 <span className="fa-stack fa-2x">
-                  <a href="https://drive.google.com/file/d/1JC7yU7MaK1YvfPVIU5PSqFx-EBzQfees/view?usp=sharing" target="_blank" title="Resume">
+                  <a  href="https://drive.google.com/file/d/1XBJVkOboyfGqqdnWc7pWX4g8TSg_MP7g/view?usp=sharing" target="_blank" title="Resume">
                     <i className="fas fa-circle fa-stack-2x"></i>
                     <i className="fas fa-file-pdf fa-stack-1x fa-inverse"></i>
                   </a>
